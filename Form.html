@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Form - page to book a tour through Odessey Travels</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="main.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/df6401e2d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-and-title">
+        <img src="logo.jpg" alt="Website Logo" />
+        <h2>Odessy</h2>
+      </div>
+    </header>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destination.html">Destination</a></li>
+        <li><a href="Package.html">Package</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Form.html">Book Now</a></li>
+      </ul>
+    </nav>
+    <!-- <script src="navbar.js"></script> -->
+
+    <main class="form-page" id="main">
+      <h1 class="des-hed">BOOK NOW</h1>
+      <p id="form-topic">
+        Please fill out the form below to book your preferred package:
+      </p>
+
+      <form
+        id="bookingForm"
+        action="https://formspree.io/f/mayrabez"
+        method="post"
+        target="_blank"
+      >
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Jhon Doe"
+          maxlength="50"
+          required
+        />
+
+        <label for="user_email">Email:</label>
+        <input
+          type="email"
+          id="user_email"
+          name="user_email"
+          placeholder="abc@gmail.com"
+          maxlength="50"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+3647891349"
+          maxlength="20"
+          required
+        />
+
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination" required>
+          <option value="">Select Destination</option>
+          <option value="Athens">Athens</option>
+          <option value="Prague">Prague</option>
+          <option value="Berlin">Berlin</option>
+        </select>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label>Number of Persons:</label><br />
+        <label><input type="radio" name="persons" value="1" /> 1</label>
+        <label><input type="radio" name="persons" value="2" /> 2</label>
+        <label><input type="radio" name="persons" value="3" /> 3</label>
+        <label><input type="radio" name="persons" value="4" /> 4</label>
+        <label><input type="radio" name="persons" value="5" /> 5</label>
+
+        <label>Package Type:</label><br />
+        <label><input type="radio" name="package" value="basic" /> Basic</label
+        ><br />
+        <label
+          ><input type="radio" name="package" value="premium" /> Premium</label
+        ><br />
+
+        <label for="modifications"
+          >If you want any further modifications you can write them here:</label
+        >
+        <textarea
+          id="modifications"
+          name="modifications"
+          placeholder="Write your text here"
+          maxlength="500"
+        ></textarea>
+
+        <label
+          ><input type="checkbox" name="terms" required /> I agree to the terms
+          and conditions</label
+        >
+
+        <label
+          ><input type="checkbox" name="subscribe" /> Subscribe to
+          newsletter</label
+        >
+
+        <div class="from-buttons">
+          <input class="reset-button" type="reset" value="Reset" />
+          <input class="submit-button" type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="upper-section">
+        <section class="left-section">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="Package.html">Package</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Form.html">Book Now</a></li>
+          </ul>
+        </section>
+        <section class="right-section">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Phone: +36201234123</li>
+            <li>
+              Email:
+              <a href="mailto:mailodessey@gmail.com">mailodessey@gmail.com</a>
+            </li>
+            <li>
+              Location:
+              <a
+                href="https://www.google.com/maps/place/Budapest,+Attila+út+125,+1012"
+                >Budapest, Attila út 125, 1012</a
+              >
+            </li>
+            <li>Subscribe to our newsletter</li>
+          </ul>
+          <form id="subscribe-form" action="index.php" method="post">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              placeholder="abc@gmail.com"
+              maxlength="50"
+              required
+            />
+            <input class="submit-button" type="submit" value="Subscribe" />
+          </form>
+          <p id="message"></p>
+          <!-- <script src="subscribe.js"></script> -->
+        </section>
+      </div>
+      <div class="lower-section">
+        <section class="left-section">
+          <img src="logo.jpg" alt="Website Logo" />
+          <h2>Odessy</h2>
+        </section>
+        <section class="middle-section">
+          <p>
+            &copy; Amir Abdullah Zakaria. <br />
+            All Rights Reserved.
+          </p>
+        </section>
+        <section class="right-section">
+          <i class="fa-brands fa-youtube fa-2xl" id="yt"></i>
+          <i class="fa-brands fa-x-twitter fa-2xl"></i>
+          <i class="fa-brands fa-instagram fa-2xl" id="ig"></i>
+          <i class="fa-brands fa-facebook fa-2xl" id="fb"></i>
+        </section>
+      </div>
+    </footer>
+    <button id="toggleButton">Toggle Alternative Style</button>
+    <button id="scrollToMainBtn" class="floating-btn">Main Section</button>
+  </body>
+</html>

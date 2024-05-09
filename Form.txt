@@ -1,0 +1,13 @@
+BOOK NOW
+Please fill out the form below to book your preferred package:
+
+Name:
+Email:
+Phone no:
+Destination: Drop Down
+Date: Calendar
+No of person: radio button
+Package type: radio
+Terms and Conditions: checkbox
+subscribe for newsletter: checkbox
+reset submit

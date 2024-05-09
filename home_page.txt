@@ -1,0 +1,70 @@
+Logo Home Destination Packages Gallery Blog Contact Book_Now
+bg img
+//motto on cover
+"Discover the beauty of the world's diverse landscapes and cultures with Odyssey by your side."
+//short description
+From ancient wonders to modern marvels, Odyssey Travels curates unforgettable journeys tailored to your desires. Explore picturesque landscapes, immerse yourself in vibrant cultures, and create memories that last a lifetime. Let us guide you on a transforming voyage where every destination becomes an adventure, and every moment is filled with wonder.
+
+Popular destinations
+Discover a world of wonders with Odyssey Travels. Our curated selection of destinations invites you to explore diverse landscapes, vibrant cultures, and unforgettable experiences. Whether you're drawn to historic landmarks, natural beauty, or bustling cities, our destinations offer something for every traveler. Let us be your guide on a journey of discovery and adventure
+
+img 01
+//text
+star rating = 4.7
+athens
+Immerse yourself in the vibrant atmosphere of Plaka, with its charming tavernas, bustling markets, and lively bougainvillea-lined alleyways.
+img 02
+//text
+star rating = 4.8
+Prague
+Lose yourself in the fairy-tale charm of Prague, where Gothic spires, Baroque architecture, and medieval cobblestone streets create an enchanting backdrop for exploration.
+
+img 03
+//text
+star rating = 4.7
+Berlin
+Dive into the city's eclectic cultural scene, with world-class museums, avant-garde galleries, and cutting-edge nightlife venues offering something for every taste and interest.
+
+more details // click and goes to the destination page
+
+Check Out Packages
+Explore our carefully crafted travel packages, designed to immerse you in the wonders of each destination, from iconic landmarks to hidden gems, creating unforgettable experiences tailored to your preferences."
+
+img01
+//text  asthens basic
+rating = 4.7
+price
+athens,greece
+img 02
+//text berlin premimum
+rating = 4.9
+price
+berlin, germany
+img 03
+//text prague basic
+rating = 4.8
+price
+prague, czech republic
+
+details // takes to packages page
+
+footer
+//quick links
+home
+destination
+Packages 
+Gallery 
+Blog 
+Contact 
+Book_Now
+
+Contact
+phone
+email
+location
+
+email box
+subscribe
+
+
+

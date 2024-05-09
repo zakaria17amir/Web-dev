@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Page - this page shows the popular destinations of for traveling</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/df6401e2d0.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-and-title">
+            <img src="logo.jpg" alt="Website Logo">
+            <h2>Odessy</h2>
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="Package.html">Package</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Form.html">Book Now</a></li>
+        </ul>
+    </nav>
+    <!-- <script src="navbar.js"></script> -->
+
+    <main id="main">
+        <aside>
+            <h1 class="des-hed" >Destinations</h1>
+            <p class="des-top">Embark on a journey of discovery as you explore our diverse range of destinations. From iconic
+                cities to hidden gems, each destination offers its own unique charm and allure. Whether you're
+                seeking adventure, relaxation, or cultural immersion, our carefully curated selection of
+                destinations promises unforgettable experiences tailored to your preferences
+            </p>
+        </aside>
+        <div class="Athens">
+            <section class="Left-section">
+                <section class="container">
+                    <div class="Athens_slides ">
+                        
+                        <video src="Athens.mp4"  alt="A video of tourist spots in athens" poster="/Athens/video_poster_athens.png" controls></video>
+                            
+                    </div>
+
+                    <div class="Athens_slides ">
+                        <figure>
+                        <img src="athens_03.jpg"  alt="Image of Amphitheater in athens">
+                        <figcaption >Amphitheater</figcaption>
+
+                        </figure>
+                    </div>
+
+                    <div class="Athens_slides">
+                        <figure>
+                        <img src="athens_01.jpg"  alt="Image of Ancient Parthenon in prague">
+                        <figcaption >Ancient Parthenon</figcaption>
+                    </figure>
+                    </div>
+
+                    <div class="Athens_slides">
+                        <figure>
+                        <img src="athens_05.jpg"  alt="Image of rooftop dining with the view of athens">
+                        <figcaption >Rooftop dining in Athens</figcaption>
+                        </figure>
+                    </div>
+                </section>
+                <br>
+
+
+                <section class="slide-buttons" >
+                    <span class="Athens_dot" onclick="currentSlide_Athens(1)"></span>
+                    <span class="Athens_dot" onclick="currentSlide_Athens(2)"></span>
+                    <span class="Athens_dot" onclick="currentSlide_Athens(3)"></span>
+                    <span class="Athens_dot" onclick="currentSlide_Athens(4)"></span>
+                </section>
+
+                <p class="img-and-video-caption" >Video and images of Athens</p>
+                
+            </section>
+
+            <section class="Right-section">
+                <h2>Athens</h2>
+                <p>Ancient yet dynamic, Athens beckons with its timeless allure and modern vibrancy. Immerse
+                    yourself in the birthplace of democracy, where ancient ruins stand alongside chic cafes and
+                    vibrant markets. Explore the Acropolis, where the Parthenon overlooks the city, and wander
+                    through historic Place, where winding streets reveal hidden treasures. Indulge in
+                    mouthwatering Greek cuisine, from traditional tavernas to contemporary eateries. With its rich
+                    history, stunning landmarks, and bustling energy, Athens promises an unforgettable journey
+                    through time and culture. <br>
+                    From the following page you can learn more about athens and ongoing events:  
+                    <a href="https://www.thisisathens.org/" target="_blank"> Learn more about Athens</a>
+                </p>
+            </section>
+        </div>
+
+        <div class="Prague">
+            <section class="Left-section">
+                <h2>Prague</h2>
+                <p>Step into a fairy-tale world in the heart of Europe with a visit to Prague. Lose yourself in the
+                    winding cobblestone streets lined with centuries-old architecture, where Gothic spires pierce
+                    the skyline and Baroque palaces beckon with their enchanting beauty. Discover the charm of
+                    the historic Old Town Square, where the Astronomical Clock comes to life with its hourly show.
+                    Indulge in the city's rich cultural scene, from classical concerts in grand concert halls to quirky
+                    art installations in hidden courtyards. With its magical ambiance, rich history, and vibrant
+                    culture, Prague promises an unforgettable journey through time and beauty. <br>
+                    From the following page you can learn more about Prague and ongoing events:  
+                    <a href="https://www.prague.eu/en" target="_blank"> Learn more about Prague</a>
+                </p>
+            </section>
+
+            <section class="Right-section">
+                <div class="container">
+                    <div class="Prague_slides">
+                        <video src="Prague_video_with_sub.mp4"  alt="A video of tourist spots in prague" poster="/Prague/prague_video_poster.png" controls></video>
+                        <a href="Prague_video_sub.txt">Audio Script of the video</a>
+                    </div>
+
+                    <div class="Prague_slides">
+                        <img src="prague_01.jpeg"  alt="Image of old town in prague">
+                    </div>
+
+                    <div class="Prague_slides">
+                        <img src="prague_03.jpeg"  alt="Image of Astronomical clock and the tin church in prague">
+                    </div>
+
+                    <div class="Prague_slides">
+                        <img src="prague_04.jpg"  alt="Image of charles bridge in prague">
+                    </div>
+                </div>
+                <br>
+
+
+                <div class="slide-buttons" >
+                    <span class="Prague_dot" onclick="currentSlide_Prague(1)"></span>
+                    <span class="Prague_dot" onclick="currentSlide_Prague(2)"></span>
+                    <span class="Prague_dot" onclick="currentSlide_Prague(3)"></span>
+                    <span class="Prague_dot" onclick="currentSlide_Prague(4)"></span>
+                </div>
+
+                <p class="img-and-video-caption" >Video and images of Prague</p>
+
+            </section>
+        </div>
+
+        <div class="Berlin">
+            <section class="Left-section">
+                <div class="container">
+                    <div class="Berlin_slides">
+                        <video src="berlin.mp4"  alt="A video of tourist spots is berlin" poster="/Berlin/Berlin_video_poster.png" controls></video>
+                    </div>
+
+                    <div class="Berlin_slides">
+                        <img src="Berlin_01.jpeg"  alt="View of the whole berlin from top with the tv-tower in focus">
+                    </div>
+
+                    <div class="Berlin_slides">
+                        <img src="Berlin_02.jpg"  alt="Image of Berlin Cathedral">
+                    </div>
+
+                    <div class="Berlin_slides">
+                        <img src="Berlin_03.jpeg"  alt="Image of Bode Museum by the river in Berlin">
+                    </div>
+
+
+                </div>
+                <br>
+
+
+                <div class="slide-buttons" >
+                    <span class="Berlin_dot" onclick="currentSlide_Berlin(1)"></span>
+                    <span class="Berlin_dot" onclick="currentSlide_Berlin(2)"></span>
+                    <span class="Berlin_dot" onclick="currentSlide_Berlin(3)"></span>
+                    <span class="Berlin_dot" onclick="currentSlide_Berlin(4)"></span>
+                </div>
+
+                <p class="img-and-video-caption" >Video and images of Berlin</p>
+
+            </section>
+
+            <section class="Right-section">
+                <h3>Berlin</h3>
+                <p>Experience the dynamic pulse of Berlin, where history, culture, and creativity collide to create a
+                    vibrant tapestry of experiences. From the iconic Brandenburg Gate to the remnants of the
+                    Berlin Wall, every corner tells a story of resilience and reinvention. Immerse yourself in the
+                    city's eclectic neighborhoods, where street art adorns the walls and hidden gems await around
+                    every corner. Indulge in the city's world-class cuisine, vibrant nightlife, and diverse cultural
+                    scene. With its unparalleled energy and endless possibilities, Berlin invites you to explore,
+                    discover, and be inspired. <br>
+                    From the following page you can learn more about Berlin and ongoing events:  
+                    <a href="https://www.berlin.de/en/tourism/travel-information/" target="_blank"> Learn more about Berlin</a>
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="upper-section">
+            <section class="left-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destination.html">Destination</a></li>
+                    <li><a href="Package.html">Package</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Form.html">Book Now</a></li>
+                </ul>
+            </section>
+            <section class="right-section">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Phone: +36201234123</li>
+                    <li>Email: <a href="mailto:mailodessey@gmail.com">mailodessey@gmail.com</a></li>
+                    <li>Location: <a href="https://www.google.com/maps/place/Budapest,+Attila+út+125,+1012">Budapest,
+                            Attila út 125, 1012</a></li>
+                    <li>Subscribe to our newsletter</li>
+                </ul>
+                <form id="subscribe-form" action="index.php" method="post">
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="abc@gmail.com" maxlength="50" required>
+                    <input class="submit-button" type="submit" value="Subscribe">
+                </form>
+                <p id="message"></p>
+                <!-- <script src="subscribe.js"></script> -->
+            </section>
+
+        </div>
+        <div class="lower-section">
+            <section class="left-section">
+                <img src="logo.jpg" alt="Website Logo">
+                <h2>Odessy</h2>
+            </section>
+            <section class="middle-section">
+                <p>&copy; Amir Abdullah Zakaria. <br> All Rights Reserved.</p>
+            </section>
+            <section class="right-section">
+                <i class="fa-brands fa-youtube fa-2xl" id="yt" ></i>
+                <i class="fa-brands fa-x-twitter fa-2xl"></i>
+                <i class="fa-brands fa-instagram fa-2xl" id="ig" ></i>
+                <i class="fa-brands fa-facebook fa-2xl" id="fb"></i>
+            </section>
+        </div>
+    </footer>
+    <script src="slides.js"></script>
+    <button id="toggleButton">Toggle Alternative Style</button>
+    <button id="scrollToMainBtn" class="floating-btn">Main Section</button>
+  
+</body>
+
+</html>

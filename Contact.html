@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page - Contact details of Odessy</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script
+      src="https://kit.fontawesome.com/df6401e2d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-and-title">
+        <img src="logo.jpg" alt="Website Logo" />
+        <h2>Odessy</h2>
+      </div>
+    </header>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destination.html">Destination</a></li>
+        <li><a href="Package.html">Package</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Form.html">Book Now</a></li>
+      </ul>
+    </nav>
+
+    <main class="contact-main" id="main">
+      <div>
+        <h1 class="des-hed">Contacts</h1>
+        <h2>Our Services</h2>
+        <p>
+          Explore our range of services tailored to make your travel experience
+          unforgettable:
+          <br />
+        </p>
+        <ul>
+          <li>Personalized Itineraries</li>
+          <li>Seamless Booking Assistance</li>
+          <li>Expert Travel Advice</li>
+          <li>24/7 Customer Support</li>
+        </ul>
+        <p>
+          Have questions or need assistance? Reach out to us using the form
+          below, or contact us directly:
+        </p>
+        <h2>Contact Information</h2>
+        <ul>
+          <li>Phone: +36201234123</li>
+          <li>
+            Email:
+            <a href="mailto:mailodessey@gmail.com">mailodessey@gmail.com</a>
+          </li>
+          <li>
+            Location:
+            <a
+              href="https://www.google.com/maps/place/Budapest,+Attila+út+125,+1012"
+              >Budapest, Attila út 125, 1012</a
+            >
+          </li>
+        </ul>
+        <h2>Contact Form:</h2>
+
+        <form
+          id="contactForm"
+          action="submit_from.php"
+          method="post"
+          onsubmit="submitForm(event)"
+        >
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Jhon Doe"
+            maxlength="50"
+            required
+          />
+
+          <label for="user-email">Email:</label>
+          <input
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="abc@gmail.com"
+            maxlength="50"
+            required
+          />
+
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+1234441414"
+            maxlength="20"
+            required
+          />
+
+          <label for="messages">Messages:</label>
+          <textarea
+            id="messages"
+            name="messages"
+            placeholder="type your messages here"
+            maxlength="500"
+            required
+          ></textarea>
+
+          <input class="submit-button" type="submit" value="Submit" />
+        </form>
+
+        <div id="successMessage">
+          <p>We have received your message.</p>
+        </div>
+
+        <p>
+          <br />Feel free to reach out to us via phone, email, or by filling out
+          the form above. We're here to help make your travel dreams a reality.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="upper-section">
+        <section class="left-section">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="Package.html">Package</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Form.html">Book Now</a></li>
+          </ul>
+        </section>
+        <section class="right-section">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Phone: +36201234123</li>
+            <li>
+              Email:
+              <a href="mailto:mailodessey@gmail.com">mailodessey@gmail.com</a>
+            </li>
+            <li>
+              Location:
+              <a
+                href="https://www.google.com/maps/place/Budapest,+Attila+út+125,+1012"
+                >Budapest, Attila út 125, 1012</a
+              >
+            </li>
+            <li>Subscribe to our newsletter</li>
+          </ul>
+          <form id="subscribe-form" action="index.php" method="post">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              placeholder="abc@gmail.com"
+              maxlength="50"
+              required
+            />
+            <input class="submit-button" type="submit" value="Subscribe" />
+          </form>
+          <p id="message"></p>
+        </section>
+      </div>
+      <div class="lower-section">
+        <section class="left-section">
+          <img src="logo.jpg" alt="Website Logo" />
+          <h2>Odessy</h2>
+        </section>
+        <section class="middle-section">
+          <p>
+            &copy; Amir Abdullah Zakaria. <br />
+            All Rights Reserved.
+          </p>
+        </section>
+        <section class="right-section">
+          <i class="fa-brands fa-youtube fa-2xl" id="yt"></i>
+          <i class="fa-brands fa-x-twitter fa-2xl"></i>
+          <i class="fa-brands fa-instagram fa-2xl" id="ig"></i>
+          <i class="fa-brands fa-facebook fa-2xl" id="fb"></i>
+        </section>
+      </div>
+    </footer>
+    <button id="toggleButton">Toggle Alternative Style</button>
+    <button id="scrollToMainBtn" class="floating-btn">Main Section</button>
+  
+  </body>
+</html>
